@@ -9,7 +9,8 @@ gaps inner 5
 gaps outer 0
 
 # font
-font pango: Ubuntu 9
+font pango: proxima nova soft 12 
+# font pango: Ubuntu 9
 
 # thin borders
 hide_edge_borders both
