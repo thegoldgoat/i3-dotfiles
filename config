@@ -174,7 +174,7 @@ assign [class="JDownloader"] → $workspace7
 # key-bindings
 bindsym $mod+Return exec termite
 bindsym Mod1+F4 kill
-bindsym Print exec gnome-screenshot
+bindsym Print exec scrot && notify-send "Screenshot acquisito!"
 
 #rofi
 bindsym $mod+space exec rofi -show drun -fullscreen -padding 10 -modi drun
