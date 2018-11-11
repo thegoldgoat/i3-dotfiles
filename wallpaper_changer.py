@@ -242,7 +242,7 @@ class Wallpaper_Changer(object):
             # re-parse folder
             self.parse_folder()
         try:
-            os.system(CHANGE_BG_COMMAND_PREFIX + background)
+            os.system(CHANGE_BG_COMMAND_PREFIX + "'" + background + "'")
         except:
             print 'Unable to change Background!'
         self.start_timer()
