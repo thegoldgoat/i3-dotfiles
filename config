@@ -204,6 +204,6 @@ exec_always --no-startup-id nm-applet
 # Bar
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Layout di tastiera
-exec_always --no-startup-id setxkbmap us,it
+exec_always setxkbmap -layout us,it -variant intl, 
 # Auto mount devices
 #exec_always --no-startup-id pcmanfm -d
